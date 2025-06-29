@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Softonics</title>
+</head>
+<body>
+   <form>
+    <fieldset>
+       <legend> Enquiry</legend>
+       Name: <input name="Name:" type="Textbox" value="name" \>
+       <br \>
+       <br \>
+       Address: <textarea value="address"></textarea>
+       <br \>
+       <br \>
+       Gender:
+       male:<input name="gender" type="radio" value="m">  
+       female:<input name="gender" type="radio" value="f">  
+       other:<input name="gender" type="radio" value="o">
+       <br \>
+       <br \>
+       Country:
+       <select>
+        <option>please select a country.</option>
+        <optgroup label="ASIA">
+            <option value="i">India</option>
+            <option value="n">Nepal</option>
+            <option value="b">bhutan</option>
+        </optgroup>
+        <optgroup label="EUROPE">
+            <option value="r">Russia</option>
+            <option value="u">Ukraine</option>
+        </optgroup>
+       </select>
+
+       <br/>
+       <br/>
+
+       Hobbies:
+       <input type="checkbox" name="hobbies[]" checked="" value="dancing" />dancing
+       <input type="checkbox" name="hobbies[]" value="singing" />singing
+       <input type="checkbox" name="hobbies[]" value="painting" />painting
+       <br/>
+       <br/>
+       Image:
+       <input type="file" value="file" />
+       <br/>
+       <br/>
+       <input type="submit" />
+       <input type="reset"/>
+    </fieldset>
+   </form>
+    
+</body>
+</html>
